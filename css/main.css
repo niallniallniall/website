@@ -1,0 +1,88 @@
+@font-face {
+  font-family: gt_walsheimmedium;
+  src: url(/fonts/gt-walsheim-medium-webfont.eot);
+  src: url(/fonts/gt-walsheim-medium-webfont.eot?#iefix)
+      format("embedded-opentype"),
+    url(/fonts/gt-walsheim-medium-webfont.woff2) format("woff2"),
+    url(/fonts/gt-walsheim-medium-webfont.woff) format("woff"),
+    url(/fonts/gt-walsheim-medium-webfont.ttf) format("truetype"),
+    url(/fonts/gt-walsheim-medium-webfont.svg#gt_walsheimmedium) format("svg");
+  font-weight: 400;
+  font-style: normal;
+}
+
+.frame {
+  margin: 0;
+  padding: 0;
+  width: 100vw;
+  min-height: 100vh;
+  display: grid;
+  background-color: #FCEDD8;
+  grid-template-rows: auto 40px;
+}
+
+.frame .main {
+  grid-row: 1;
+  padding-bottom: 100px;
+  margin: auto;
+}
+
+div .icon {
+  display: flex;
+  justify-content: center;
+  padding: 50px 0 50px 0;
+}
+
+@media (min-width: 600px) {
+  div .icon {
+    display: flex;
+    justify-content: center;
+    padding: 0px 0 50px 0;
+  }
+}
+
+p {
+  font-family: GT Walsheim Medium, Helvetica, Arial, sans-serif;
+  color:#FF9300;
+  font-size: 1.2em;
+  line-height: 1.3em;
+  max-width: 20em;
+  text-align: center;
+  padding: 0 2em 0 2em;
+}
+
+p a {
+  text-decoration: none;
+  color:#FF6200;
+}
+
+.footer {
+  grid-row: 2;
+  background-color: #FF6200;
+}
+
+.footer p {
+  font-family: GT Walsheim Medium, Helvetica, Arial, sans-serif;
+  font-size: 1em;
+  color: #ffffff;
+  text-align: center;
+  margin: 0 auto;
+  margin-block-start: 0.5em;
+  margin-block-end: 0.5em;
+}
+
+noscript {
+  color:#FF6200;
+}
+
+@media (min-width: 600px) {
+  p {
+    font-family: GT Walsheim Medium, Helvetica, Arial, sans-serif;
+    color:#FF9300;
+    font-size: 1.6em;
+    line-height: 1.35em;
+    max-width: 23em;
+    text-align: center;
+    padding: 0 2em 0 2em;
+  }
+}
