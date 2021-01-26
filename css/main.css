@@ -1,6 +1,12 @@
 @font-face {
-  font-family: gt_walsheimmedium;
-  src: url('path/filename.woff2') format('woff2'), url('path/filename.woff') format('woff'), url('path/filename.ttf') format('truetype');
+    font-family: 'gt_walsheimmedium';
+    src: url('gt-walsheim-medium-web-webfont.eot');
+    src: url('gt-walsheim-medium-web-webfont.eot#iefix') format('embedded-opentype'),
+         url('gt-walsheim-medium-web-webfont.woff') format('woff'),
+         url('gt-walsheim-medium-web-webfont.ttf') format('truetype'),
+         url('gt-walsheim-medium-web-webfont.svg#gt_walsheimmedium') format('svg');
+    font-weight: normal;
+    font-style: normal;
 }
 
 .frame {
