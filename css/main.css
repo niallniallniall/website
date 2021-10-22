@@ -30,7 +30,7 @@ div .icon {
 
 p {
   font-family: aktiv-grotesk, Helvetica, Arial, sans-serif;
-  font-weight: 400;
+  font-weight: 500;
   font-style: normal;
   color:#FF9300;
   font-size: 1.2em;
@@ -52,7 +52,7 @@ p a {
 
 .footer p {
   font-family: aktiv-grotesk, Helvetica, Arial, sans-serif;
-  font-weight: 400;
+  font-weight: 500;
   font-style: normal;
   font-size: 1em;
   color: #ffffff;
@@ -69,7 +69,7 @@ noscript {
 @media (min-width: 600px) {
   p {
     font-family: aktiv-grotesk, Helvetica, Arial, sans-serif;
-    font-weight: 400;
+    font-weight: 500;
     font-style: normal;
     color:#FF9300;
     font-size: 1.6em;
